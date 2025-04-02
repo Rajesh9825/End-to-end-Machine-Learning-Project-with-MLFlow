@@ -5,9 +5,9 @@ numpy
 scikit-learn
 matplotlib
 python-box==6.0.2
-pyYAML
+pyyaml
 tqdm
-ensure==1.0.2
+ensure
 joblib
 types-PyYAML
 Flask
