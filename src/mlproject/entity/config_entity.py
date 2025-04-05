@@ -22,4 +22,16 @@ class DataTransformationConfig:
     root_dir : Path
     data_path : Path
     
+
+@dataclass(frozen=True)
+class ModelTrainingConfig:
+    root_dir: Path
+    train_data_path: Path
+    test_data_path: Path
+    model_name: str
+    alpha: float # params.yaml  
+    l1_ratio: float # params.yaml
+    target_column: str # Schema.yaml
+
+
     
