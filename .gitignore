@@ -176,4 +176,4 @@ cython_debug/
 
 artifacts/
 mlruns
-
+aws_ecr_uri
